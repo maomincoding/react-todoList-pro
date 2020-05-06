@@ -8,7 +8,7 @@ function Root() {
     <div className="App">
       <BrowserRouter>
          <Route exact={true} path="/" component={RouterOne}></Route>
-         <Route exact={true} path="/two" component={RouterTwo}></Route>
+         <Route exact={true} path="/two/:id" component={RouterTwo}></Route>
        </BrowserRouter>
     </div>
   );

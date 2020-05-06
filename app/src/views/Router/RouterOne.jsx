@@ -6,7 +6,8 @@ export default class RouterOne extends React.Component{
    return (
      <div>
        <p>This is ROUTER ONE</p>
-       <Link to="/two">跳转</Link>   
+       {/* <Link  to={{ pathname: '/two/', state:{name: 1}}}>跳转</Link> */}
+       <Link to="/two/1">跳转</Link>
      </div>
    )
   }
